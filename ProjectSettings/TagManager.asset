@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
+  - Goal
+  - Bouncable
+  - Death
   layers:
   - Default
   - TransparentFX
@@ -13,8 +17,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Civilians
+  - Player
   - 
   - 
   - 
@@ -40,4 +44,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Level
+    uniqueID: 1171416411
+    locked: 0
+  - name: Player
+    uniqueID: 4180441481
+    locked: 0
+  - name: UI
+    uniqueID: 2110188329
     locked: 0
